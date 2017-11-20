@@ -1,0 +1,8 @@
+#N canvas 3427 264 396 154 10;
+#X obj 23 66 dumpOSC 8338;
+#X obj 23 95 OSCroute /gesture;
+#X text 22 19 receive data from the faceosc app https://github.com/kylemcdonald/ofxFaceTracker/downloads
+;
+#X obj 23 119 outlet;
+#X connect 0 0 1 0;
+#X connect 1 0 3 0;

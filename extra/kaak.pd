@@ -1,0 +1,8 @@
+#N canvas 2110 543 450 323 10;
+#X obj 43 22 inlet;
+#X obj 45 93 outlet;
+#X obj 44 72 smooth 1;
+#X obj 43 48 OSCroute /jaw;
+#X connect 0 0 3 0;
+#X connect 2 0 1 0;
+#X connect 3 0 2 0;
