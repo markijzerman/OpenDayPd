@@ -7,8 +7,7 @@ void setup()
 
 void loop()
 {
-  sensorValue = analogRead(0);
+  sensorValue = (analogRead(0)*0.125);
   Serial.write(sensorValue);
   delay(100);
 }
-
